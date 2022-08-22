@@ -156,7 +156,7 @@ function Save-SynapseSampleArtifacts{
   $headers = @{ Authorization = "Bearer $token" }
 
   $synapseTokens = @{"`#`#azsynapsewks`#`#" = $SynapseWorkspaceName; }
-  $indexFileUrl = "https://raw.githubusercontent.com/CSALabsAutomation/quickstart-templates/main/TestPipelines/Sample/index.json"
+  $indexFileUrl = "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/TestPipelines/Sample/index.json"
   $sampleCodeIndex = Invoke-WebRequest $indexFileUrl | ConvertFrom-Json
 
   foreach($sampleArtifactCollection in $sampleCodeIndex)
