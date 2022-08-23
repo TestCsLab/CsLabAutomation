@@ -69,7 +69,12 @@
                     "name": "AzureBlobStorageSCD",  
                     "interface": "rest",
                     "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/TestPipelines/Sample/SynapseRetail/LinkedService/AzureBlobStorageSCD.json"
-                 }             
+                 } ,
+                {
+                    "name": "azrawdatalakego2d3",
+                    "interface": "rest",
+                    "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/TestPipelines/Sample/SynapseRetail/LinkedService/azwksdatalakego2d3.json"
+                }
                                               
             ],
             "dataflows":[
