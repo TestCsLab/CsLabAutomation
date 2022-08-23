@@ -26,8 +26,13 @@
             ],
             "pipelines": [
                 {
-                 "name": "TripFaresDataPipeline",
-                    "definitionFilePath": "https://github.com/jchinchillaMSFT/ww-csu-psk-synapse-retail/blob/main/pipeline/1_0%20Main%20Pipeline.json",
+                 "name": "1_0 Main Pipeline",
+                    "definitionFilePath": "https://raw.githubusercontent.com/jchinchillaMSFT/ww-csu-psk-synapse-retail/main/pipeline/1_0%20Main%20Pipeline.json",
+                    "tokens": []
+                },
+                 {
+                 "name": "2_1 Copy CSV data from GitHub",
+                    "definitionFilePath": "https://raw.githubusercontent.com/jchinchillaMSFT/ww-csu-psk-synapse-retail/main/pipeline/2_1%20Copy%20CSV%20data%20from%20GitHub.json",
                     "tokens": []
                 }
             ],
@@ -53,7 +58,7 @@
             "notebooks": [
                 {
                      "name": "AzureNoteBookSCD",                   
-                    "definitionFilePath": "https://github.com/jchinchillaMSFT/ww-csu-psk-synapse-retail/blob/main/notebook/CSV%20-%20Product%20recommendations.json",
+                    "definitionFilePath": "https://raw.githubusercontent.com/jchinchillaMSFT/ww-csu-psk-synapse-retail/main/notebook/CSV%20-%20Product%20recommendations.json",
                     "tokens": []
                 }
             ],
