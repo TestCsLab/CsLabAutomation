@@ -1,0 +1,25 @@
+{
+	"name": "adworks",
+	"properties": {
+		"Name": "adworks",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://azsynapsewksgo2d3@azwksdatalakego2d3.dfs.core.windows.net/azsynapsewksgo2d3/adworks",
+			"Properties": {
+				"FormatType": "parquet",
+				"LinkedServiceName": "azwksdatalakego2d3"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 5,
+		"ObjectId": "b9dcf732-8a65-472f-89c9-eb9e2e66418d"
+	},
+	"type": "DATABASE"
+}
