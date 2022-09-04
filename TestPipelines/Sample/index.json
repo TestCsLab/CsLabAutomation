@@ -64,13 +64,13 @@
             "notebooks": [
               {
                     "name": "CSV - Product recommendations",
-                    "interface": "rest",
+                    "interface": "powershell",
                     "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/SamplePipelines/notebook/CSV%20-%20Product%20recommendations.json",
                     "workspaceFolderPath": "OpenDatasets"                 
                 },
                   {
                     "name": "LakeDB - Product recommendations",
-                    "interface": "rest",
+                    "interface": "powershell",
                     "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/SamplePipelines/notebook/LakeDB%20-%20Product%20recommendations.json",
                     "workspaceFolderPath": "OpenDatasets"
                 }
@@ -78,8 +78,18 @@
             "linkedServices":[ 
                 {
                     "name": "azblobStorage",  
-                    "interface": "rest",
+                    "interface": "powershell",
                     "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/TestPipelines/Sample/SynapseRetail/LinkedService/AzureBlobStorageSCD.json"
+                 } ,
+                 {
+                    "name": "curated",  
+                    "interface": "rest",
+                    "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/TestPipelines/Sample/SynapseRetail/LinkedService/azcurateddatalakego2d3.json"
+                 } ,
+                 {
+                    "name": "raw",  
+                    "interface": "rest",
+                    "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/TestPipelines/Sample/SynapseRetail/LinkedService/azrawdatalakego2d3.json"
                  } 
                                             
             ],
