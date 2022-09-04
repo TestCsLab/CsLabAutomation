@@ -63,11 +63,16 @@
             ],
             "notebooks": [
               {
-                    "name": "02 - Getting Started with Delta Lake",
-                    "interface": "powershell",
+                    "name": "CSV - Product recommendations",
+                    "interface": "rest",
                     "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/SamplePipelines/notebook/CSV%20-%20Product%20recommendations.json",
-                    "workspaceFolderPath": "OpenDatasets",
-                    "tokens": []
+                    "workspaceFolderPath": "OpenDatasets"                 
+                },
+                  {
+                    "name": "LakeDB - Product recommendations",
+                    "interface": "rest",
+                    "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/SamplePipelines/notebook/LakeDB%20-%20Product%20recommendations.json",
+                    "workspaceFolderPath": "OpenDatasets"
                 }
             ],
             "linkedServices":[ 
