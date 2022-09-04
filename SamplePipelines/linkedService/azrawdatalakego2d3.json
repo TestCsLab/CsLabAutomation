@@ -5,7 +5,7 @@
 		"annotations": [],
 		"type": "AzureBlobFS",
 		"typeProperties": {
-			"url": "https://azrawdatalakego2d3.dfs.core.windows.net"
+			"url": "@{concat('https://',linkedService().datalakeAccountName,'.dfs.core.windows.net')}"
 		},
 		"connectVia": {
 			"referenceName": "AutoResolveIntegrationRuntime",
