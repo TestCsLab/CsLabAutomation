@@ -11,10 +11,10 @@
 		},
 		"Source": {
 			"Provider": "ADLS",
-			"Location": "abfss://azsynapsewksgo2d3@azwksdatalakego2d3.dfs.core.windows.net/azsynapsewksgo2d3/adworks",
+			"Location": "abfss://curated@azcurateddatalakepkhtyc.dfs.core.windows.net/adworks",
 			"Properties": {
 				"FormatType": "parquet",
-				"LinkedServiceName": "azwksdatalakego2d3"
+				"LinkedServiceName": "azcurateddatalakepkhtyc"
 			}
 		},
 		"PublishStatus": "PUBLISHED",
