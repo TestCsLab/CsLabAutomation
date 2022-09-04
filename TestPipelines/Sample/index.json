@@ -45,17 +45,17 @@
             "datasets":[
                  {
                     "name": "GithubCSVFiles",                    
-                    "definitionFilePath": "https://raw.githubusercontent.com/jchinchillaMSFT/ww-csu-psk-synapse-retail/main/dataset/GithubCSVFiles.json",
+                    "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/SamplePipelines/dataset/GithubCSVFiles.json",
                      "tokens": []
                 },
                 {
                     "name": "Raw",                    
-                    "definitionFilePath": "https://raw.githubusercontent.com/jchinchillaMSFT/ww-csu-psk-synapse-retail/main/dataset/Raw.json",
+                    "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/SamplePipelines/dataset/Raw.json",
                     "tokens": []
                 },
                 {
                     "name": "adworksRaw",                    
-                    "definitionFilePath": "https://raw.githubusercontent.com/jchinchillaMSFT/ww-csu-psk-synapse-retail/main/dataset/adworksRaw.json",
+                    "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/SamplePipelines/dataset/adworksRaw.json",
                     "tokens": []
                 }
             
