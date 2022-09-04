@@ -21,19 +21,25 @@
                 {
                     "name": "adworks Row Counts",
                     "interface": "rest",
-                    "definitionFilePath": "https://raw.githubusercontent.com/jchinchillaMSFT/ww-csu-psk-synapse-retail/main/sqlscript/adworks%20Row%20Counts.json"
+                    "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/SamplePipelines/sqlscript/adworks%20Row%20Counts.json"
+                },
+                 {
+                    "name": "adworks Row Counts",
+                    "interface": "rest",
+                    "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/SamplePipelines/sqlscript/adworkstarget%20RowCounts.json"
                 }
             ],
             "pipelines": [
                 {
-                 "name": "1_0 Main Pipeline",
-                    "definitionFilePath": "https://raw.githubusercontent.com/jchinchillaMSFT/ww-csu-psk-synapse-retail/main/pipeline/1_0%20Main%20Pipeline.json",
-                    "tokens": []
+                 "name": "Load CSV data to adworks.json",
+                    "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/SamplePipelines/pipeline/2_2%20Load%20CSV%20data%20to%20adworks.json",
+                    "interface": "rest"
                 },
                  {
-                 "name": "2_1 Copy CSV data from GitHub",
-                    "definitionFilePath": "https://raw.githubusercontent.com/jchinchillaMSFT/ww-csu-psk-synapse-retail/main/pipeline/2_1%20Copy%20CSV%20data%20from%20GitHub.json",
-                    "tokens": []
+                 "name": "Copy CSV data from GitHub",
+                     "interface": "rest",
+                    "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/SamplePipelines/pipeline/2_1%20Copy%20CSV%20data%20from%20GitHub.json"
+               
                 }
             ],
             "datasets":[
@@ -59,7 +65,7 @@
               {
                     "name": "02 - Getting Started with Delta Lake",
                     "interface": "powershell",
-                    "definitionFilePath": "https://raw.githubusercontent.com/Azure/azure-synapse-analytics-end2end/main/Sample/OpenDatasets/Notebooks/02-GettingStartedDeltaLake.ipynb",
+                    "definitionFilePath": "https://raw.githubusercontent.com/TestCsLab/CsLabAutomation/main/SamplePipelines/notebook/CSV%20-%20Product%20recommendations.json",
                     "workspaceFolderPath": "OpenDatasets",
                     "tokens": []
                 }
