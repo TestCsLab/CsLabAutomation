@@ -4,8 +4,8 @@
 	"properties": {
 		"annotations": [],
 		"type": "AzureBlobFS",
-		"typeProperties": {
-			"url": "@{concat('https://',linkedService().datalakeAccountName,'.dfs.core.windows.net')}"
+		"typeProperties": {			
+			"url": "@{concat('https://',workspaceDataLakeAccountName,'.dfs.core.windows.net')}"
 		},
 		"connectVia": {
 			"referenceName": "AutoResolveIntegrationRuntime",
