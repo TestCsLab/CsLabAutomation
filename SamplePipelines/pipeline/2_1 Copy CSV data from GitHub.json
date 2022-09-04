@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"url": "https://api.github.com/repos/jchinchillaMSFT/ww-csu-psk-synapse-retail/contents/Sample/AdventureWorks/",
+					"url": "https://github.com/TestCsLab/CsLabAutomation/tree/main/TestPipelines/Sample/SynapseRetail/database/AdventureWorks/",
 					"connectVia": {
 						"referenceName": "AutoResolveIntegrationRuntime",
 						"type": "IntegrationRuntimeReference"
