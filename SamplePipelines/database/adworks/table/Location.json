@@ -78,15 +78,15 @@
 				"FormatType": "parquet",
 				"SerializeLib": "org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe",
 				"Properties": {
-					"path": "abfss://azsynapsewkspkhtyc@azwksdatalakepkhtyc.dfs.core.windows.net/synapse/workspaces/azsynapsewkspkhtyc/sparkpools/Location",
+					"path": "https://azwksdatalakepkhtyc.blob.core.windows.net/azsynapsewkspkhtyc/synapse/workspaces/azsynapsewkspkhtyc/sparkpools/Location",
 					"FormatTypeSetToDatabaseDefault": false
 				}
 			},
 			"Source": {
 				"Provider": "ADLS",
-				"Location": "abfss://azsynapsewkspkhtyc@azwksdatalakepkhtyc.dfs.core.windows.net/synapse/workspaces/azsynapsewkspkhtyc/sparkpools/Location",
+				"Location": "https://azwksdatalakepkhtyc.blob.core.windows.net/azsynapsewkspkhtyc/synapse/workspaces/azsynapsewkspkhtyc/sparkpools/Location",
 				"Properties": {
-					"LinkedServiceName": "azsynapsewksgo2d3-WorkspaceDefaultStorage",
+					"LinkedServiceName": "azwksdatalakepkhtyc",
 					"LocationSetToDatabaseDefault": false
 				}
 			},
