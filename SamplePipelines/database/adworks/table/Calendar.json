@@ -135,15 +135,15 @@
 				"FormatType": "parquet",
 				"SerializeLib": "org.apache.hadoop.hive.ql.io.parquet.serde.ParquetHiveSerDe",
 				"Properties": {
-					"path": "abfss://azsynapsewksgo2d3@azwksdatalakego2d3.dfs.core.windows.net/azsynapsewksgo2d3/adworks/Calendar",
+					"path": "abfss://azsynapsewkspkhtyc@azwksdatalakepkhtyc.dfs.core.windows.net/synapse/workspaces/azsynapsewkspkhtyc/sparkpools/Calendar",
 					"FormatTypeSetToDatabaseDefault": false
 				}
 			},
 			"Source": {
 				"Provider": "ADLS",
-				"Location": "abfss://azsynapsewksgo2d3@azwksdatalakego2d3.dfs.core.windows.net/azsynapsewksgo2d3/adworks/Calendar",
+				"Location": "abfss://azsynapsewkspkhtyc@azwksdatalakepkhtyc.dfs.core.windows.net/synapse/workspaces/azsynapsewkspkhtyc/sparkpools/Calendar",
 				"Properties": {
-					"LinkedServiceName": "azsynapsewksgo2d3-WorkspaceDefaultStorage",
+					"LinkedServiceName": "azsynapsewkspkhtyc",
 					"LocationSetToDatabaseDefault": false
 				}
 			},
